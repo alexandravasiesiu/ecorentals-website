@@ -29,7 +29,7 @@
             </ul>
       </div>
           <div class="w-auto lg:hidden">
-            <a class="navbar-burger inline-flex w-14 h-14 justify-center items-center bg-gray-500 hover:bg-gray-600 rounded-full" href="#">
+            <a class="navbar-burger inline-flex w-14 h-14 justify-center items-center bg-gray-500 hover:bg-gray-600 rounded-full" href="index.html">
               <svg width="20" height="10" viewbox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 9H1M19 1H1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
           </div>
         </div>
@@ -42,20 +42,20 @@
                 <h1 class="font-heading text-4xl lg:text-5xl text-white">Închiriază ACUM!</h1>
                 <form action="https://formsubmit.co/office.eco.rentals@gmail.com" method="POST">
                   <div class="mb-4">
-                    <input class="appearance-none block w-full py-3 leading-tight text-gray-700 border border-gray-200 focus:border-gray-500 rounded focus:outline-none px-4 mt-4 bg-white" type="text" placeholder="Nume">
+                    <input class="appearance-none block w-full py-3 leading-tight text-gray-700 border border-gray-200 focus:border-gray-500 rounded focus:outline-none px-4 mt-4 bg-white" type="text" name="nume" placeholder="Nume">
       </div>
                   <div class="mb-4">
-                    <input class="appearance-none block w-full py-3 leading-tight text-gray-700 border border-gray-200 focus:border-gray-500 rounded focus:outline-none px-4 mt-4 bg-white" type="text" placeholder="Prenume">
+                    <input class="appearance-none block w-full py-3 leading-tight text-gray-700 border border-gray-200 focus:border-gray-500 rounded focus:outline-none px-4 mt-4 bg-white" type="text" name="prenume" placeholder="Prenume">
       </div>
                   <div class="mb-4">
                     <label for="taking_over" class="text-white font-heading font-medium text-lg">Preluare mașină:</label> 
-                    <input class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 border border-gray-200 focus:border-gray-500 rounded focus:outline-none bg-white" id="taking_over" type="date" placeholder="Data preluării">
+                    <input class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 border border-gray-200 focus:border-gray-500 rounded focus:outline-none bg-white" id="taking_over" type="date" name="preluare" placeholder="Data preluării">
       </div>
                   <div class="mb-4">
                     <label for="rendition" class="font-heading font-medium text-white text-lg">Predare mașină:</label> 
-                    <input class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 border border-gray-200 focus:border-gray-500 rounded focus:outline-none bg-white" id="rendition" type="date" placeholder="Data predării">
+                    <input class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 border border-gray-200 focus:border-gray-500 rounded focus:outline-none bg-white" id="rendition" type="date" name="predare" placeholder="Data predării">
       </div>
-                  <textarea class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 border focus:border-gray-500 rounded focus:outline-none bg-white" placeholder="Mesajul tău" rows="5"></textarea><div class="mb-4">
+                  <textarea class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 border focus:border-gray-500 rounded focus:outline-none bg-white" name="mesaj" placeholder="Mesajul tău" rows="5"></textarea><div class="mb-4">
                   <button class="inline-block w-full py-4 px-8 leading-none text-white rounded shadow mt-4 bg-yellow-500 hover:bg-yellow-600 font-heading font-medium text-lg">Trimite</button>
                   </div>
                 </form>
